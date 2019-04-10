@@ -11,7 +11,7 @@ app.use(express.static('dist'))
 
 app.get('/api/navbar/products', (req, res) => {
     //get req to navbar
-    axios.get('http://ec2-18-223-247-62.us-east-2.compute.amazonaws.com/api/navbar/products')
+    axios.get('http://ec2-52-14-74-144.us-east-2.compute.amazonaws.com/api/navbar/products')
     .then(dataz => {
         let placeholder = dataz.data;
         res.send(placeholder);
@@ -25,7 +25,7 @@ app.get('/api/navbar/products', (req, res) => {
 
 app.get('/api/carousel/products', (req, res) => {
     //get req to carousel
-    axios.get('http://ec2-13-58-19-111.us-east-2.compute.amazonaws.com/api/carousel/products')
+    axios.get('http://ec2-3-17-65-225.us-east-2.compute.amazonaws.com/api/carousel/products')
     .then(dataz => {
         let placeholder = dataz.data;
         res.send(placeholder);
