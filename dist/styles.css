@@ -1,6 +1,7 @@
 #navbar {
+    width: 100%;
 }
 
-#carousel {
-    margin-top: 15vh;
+body {
+    margin: 0 !important;
 }
